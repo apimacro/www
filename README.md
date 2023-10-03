@@ -107,7 +107,8 @@ BROWSER:
         XPATH: "input.text.password"
     WRITE:
         TXT_FROM_FILE_PATH: PATH_PASS
-    WAIT: 3000
+    WAIT:
+        SECONDS: 3
     CLICK:
         XPATH: "input.mid.button-green-large"
     SCREENSHOT:
